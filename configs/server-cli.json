@@ -1,0 +1,10 @@
+{
+  "data_dir": "/usr/local/consul/server/data",
+  "log_level": "INFO",
+  "client_addr": "0.0.0.0",
+  "ca_file": "/etc/tls/ca.pem",
+  "cert_file": "/etc/tls/etcd.pem",
+  "key_file": "/etc/tls/etcd-key.pem",
+  "verify_incoming": true,
+  "verify_outgoing": true
+}
